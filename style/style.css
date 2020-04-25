@@ -308,3 +308,21 @@ header{
     border-radius: 50%;
     margin-left: 10px;
 }
+
+.testimonial{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.testimonial-content{
+    text-align: center;
+}
+
+.testimonial-content h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
