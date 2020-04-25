@@ -326,3 +326,54 @@ header{
     font-weight: 600;
     margin-bottom: 20px;
 }
+
+.person{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.person-content{
+    text-align: center;
+}
+
+.person-image{
+    margin-bottom: 20px;
+}
+
+.person-name{
+    margin-bottom: 15px;
+}
+
+.person-job{
+    margin-bottom: 20px;
+}
+.person-name span{
+    font-size: 1.8rem;
+    color: #122649;
+    font-weight: 600;
+}
+
+.person-job span{
+    font-size: .8rem;
+    color: #7a67b6;
+    font-weight: 500;
+}
+
+.person-details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.person-details p{
+    width: 44%;
+    line-height: 1.5;
+    font-size: .9rem;
+    color: #5771a3;
+    font-weight: 500;
+}
+
+.person-details{
+    margin-bottom: 80px;
+}
