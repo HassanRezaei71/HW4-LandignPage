@@ -542,6 +542,7 @@ header{
 
 .blue-box-content input::placeholder{
     color: #a295cb;
+    font-size: .96rem;
 }
 
 .blue-box-content span{
@@ -560,8 +561,8 @@ header{
 .textinput{
     display: flex;
     align-items: center;
-    padding: 0 12px;
-    border-radius: 10px;
+    padding: 0 13px;
+    border-radius: 8px;
     border: 1.5px solid #a295cb;
 }
 
@@ -584,4 +585,79 @@ header{
     top: 0;
     right: 0;
     transform: rotate(-180deg)
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.first-hr{
+    background-color: #ddeaf8;
+    color: #ddeaf8;
+    border: none;
+    margin-bottom: 60px;
+    height: 1.1px;
+}
+
+.second-hr{
+    background-color: #ddeaf8;
+    color: #ddeaf8;
+    border: none;
+    margin-bottom: 25px;
+    height: 1.1px;
+}
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.footer-content-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    width: 43%;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.footer-text p{
+    width: 80%;
+    color: #544937;
+}
+
+.footer-links{
+    width: 20%;
+    height: inherit;
+}
+
+.footer-links h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer-links a{
+    display: block;
+    margin-bottom: 15px;
+    font-size: .97rem;
+    color: #544937;
+}
+
+.desiner{
+    width: 100%;
+    text-align: center;
+    font-size: .8rem;
+    margin-bottom: 25px;
+}
+
+.desiner span{
+    color: lightcoral;
 }
