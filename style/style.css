@@ -377,3 +377,73 @@ header{
 .person-details{
     margin-bottom: 80px;
 }
+
+.story{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.story-content{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.story-content h2{
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.story-content p{
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.story-detail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.story-detail-content{
+    display: flex;
+}
+
+.col-story-detail{
+    width: 50%;
+}
+
+.left-col h2,
+.right-col h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.left-col h2::before{
+    content: "\e901";
+    font-family: "icomoon";
+    color: #432b99;
+    margin-right: 20px;
+}
+
+.right-col h2::before{
+    content: "\e902";
+    font-family: "icomoon";
+    color: #432b99;
+    margin-right: 20px;
+}
+
+.left-col p,
+.right-col p{
+    width: 74%;
+    font-size: .98rem;
+    margin-left: 48px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.first-paragraph{
+    margin-bottom: 25px;
+}
